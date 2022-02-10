@@ -1,7 +1,7 @@
 package com.ananjay.scala.practice.basic
 /*
 Key Learning :
-  1. String Interpolation - String Interpolation means that the replacement of defined variables or expressions in a given String with values.
+  1. String Interpolation - for replacement of defined variables or expressions in a given String with values.
     a. Define variables in that String with $variable_name syntax
     b. Define expressions in that String with ${expression} syntax
     c. Define Object fields with ${object.field} syntax
