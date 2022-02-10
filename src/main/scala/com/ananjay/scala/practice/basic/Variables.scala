@@ -7,6 +7,7 @@ Key Learning :
   4. Variable, Class, Object, Function name should be in CamelCase
   5. We need to give f at the end of the Float type variable
   6. We need to give l at the end of the Long type variable
+  7. Semicolon(;) is not required and only required if multiple statement are there in single line.
  */
 object Variables extends App{
   var a = 5
@@ -15,17 +16,17 @@ object Variables extends App{
   println("Val Int : " +b)
   val c : String = "Hello"
   println("String : " +c)
-  val d: Boolean = true
+  val d:Boolean = true
   println("Boolean : " +d)
-  val e: Char = 'a'
+  val e:Char = 'a'
   println("Char : " +e)
-  val f: Double = 3.14
+  val f:Double = 3.14
   println("Double : " +f)
-  val g: Float = 5.534f
+  val g:Float = 5.534f
   println("Float : " +g)
-  val h: Long = 23233223233454554l
+  val h:Long = 23233223233454554l
   println("Long : " +h)
-  val i: Byte = 123
+  val i:Byte = 123
   println("Byte : " +i)
   println("Combined Result : "+ a + b + c + d + e + f + g + h + i)
 }
